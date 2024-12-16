@@ -1,0 +1,65 @@
+/* General App Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main container */
+.app {
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Gallery Container */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Image Upload Box */
+.image-upload-box {
+  width: 200px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Upload Label */
+.upload-label {
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+
+.upload-label input[type="file"] {
+  display: none;
+  margin-top: 10px;
+}
+
+/* Image Preview */
+.image-preview {
+  margin-top: 10px;
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
